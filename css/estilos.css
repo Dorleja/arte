@@ -1,0 +1,182 @@
+body{
+    
+	font-family: sans-serif;
+	background: "img/as.jfif";
+}
+header{
+	width: 100%;
+	background: #080200 ;
+}
+
+#btn-menu{
+	display: none;
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #fff;
+}
+header label:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+
+.menu ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+
+	
+}
+
+.menu li{
+	border-right: 1px solid #fff;
+}
+
+.menu li:hover {
+	background: rgba(0,0,0,0.3);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.contenido ul {
+	margin: 70px;
+	background-color: #fff;
+	border: 10px solid black;
+}
+
+
+
+@media(max-width: 768px){
+	header label{
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		background: #E5D447;
+		width: 70%;
+		margin-left: -70%;
+		transition: all 0.5s;
+	}
+	.menu ul {
+		flex-direction: column;
+	}
+	.menu li {
+		border-top: 1px solid #fff;
+	}
+	#btn-menu:checked ~ .menu {
+    margin: 0;
+
+	}
+}
+
+
+
+h1{
+font-family: Franklin Gothic Demi;
+color:#F7DE10;
+text-shadow: 12px 9px 5px black;
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+font-size: 90px;
+}
+
+h3{
+font-family: Bahnschrift;
+color:white ;
+text-shadow: 12px 9px 5px silver;
+text-align: center;
+margin-left: 200px;
+margin-right: 200px;
+font-size: 30px;
+}
+
+h2{
+font-family: Bahnschrift;
+color:white;
+text-shadow: 12px 9px 5px black;
+text-align: center;
+margin-left: 200px;
+margin-right: 200px;
+font-size: 30px;
+}
+p{
+font-size: 28px;
+font-family: Bahnschrift;
+color:black;
+text-align: justify;
+margin-left: 70px;
+margin-right: 70px;
+
+        }
+
+b{
+font-size: 28px;
+font-family: Bahnschrift;
+text-shadow: 4px 4px 3px black;
+font-weight: bold;
+color:white;
+text-align: justify;
+margin-left: 70px;
+}
+
+
+button{
+border-radius: 70px;
+width: 18%;	
+font-size: 21px;
+font-family: Leelawadee;
+color: #040400;		
+background-color: #EAE603;
+font-weight: bold;
+border-top: 10px;
+}
+
+
+ * {
+            box-sizing: border-box;
+        }
+
+        .columna {
+            float: left;
+            width: 33%;
+            padding-right: 5px;
+         
+        }
+
+        .fila::after {
+            content: "";
+            clear: both;
+            display: table;       
+        }
+       
+
+img{
+max-width: 100%
+
+}
+
+
+        .inline-buttons .et_pb_button_module_wrapper {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.inline-buttons {
+    text-align: center !important; 
+    /* Change "Center" to left or right as you need, 
+    to align the buttons to the sides rather than the 
+    center of the column */
+}

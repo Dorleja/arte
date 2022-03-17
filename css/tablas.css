@@ -1,0 +1,89 @@
+body{
+    background: url("../img/b.jpg");
+    font-family: Georgia,Sagona,Lucida,OCR A Extended;
+    }
+
+.wrapper {
+    overflow:hidden;
+    width:930px;
+}
+.wrapper div {
+    /* cualquier altura mayor que el total de sumar la anchura de las img */
+    width:930px;
+
+    /* para evitar el margen superior de la primera fila */
+    margin-top:-10px;
+}
+img {
+    width:300px;
+    height:300px;
+    float:center;
+    margin:10px 10px 0 0;
+    border-radius: 10px;
+}
+
+#tercer{
+text-align: center;
+font-size: 35px;
+font-family: Forte;
+color:#720049;
+margin-left: 50px;
+margin-right: 50px;
+border-radius: 10px;
+text-shadow: 7px 4px 5px white;
+}
+
+#primer{
+text-align: center;
+font-size: 25px;
+font-family: Sagona Book;
+color:#FDFEFE;
+font-weight: bold;
+margin-left: 50px;
+margin-right: 50px;
+background: rgba(0,0,0,0.6);
+border-radius: 10px;
+}
+
+#segundo{
+text-align: center;
+font-family:Courier New;
+font-size: 20px;
+margin-left: 50px;
+margin-right: 50px;
+color:#212F3C;
+background-color: rgba(235, 112, 190, 0.3);
+border-radius: 10px;
+font-weight: bold;
+
+        }
+#prin{
+    text-align: center;
+    align-content: all;
+    width: 1000px;
+    
+    border: 10px solid white;
+    border-bottom-color: white;
+    border-bottom-style: dashed;
+    border-top-color: white;
+    border-top-style: dashed;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+h1{
+font-family: Lucida Handwriting;
+color: #FDFEFE;
+font-size: 50px;
+text-shadow: 7px 4px 5px black;
+text-align: center;
+align-content: all;
+background-color: rgba(249, 58, 180, 0.7);
+border-radius: 20px;
+font-weight: bold;
+}
+
+
+}
